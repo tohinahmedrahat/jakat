@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header_section{
+    width: 100%;
+    background-image: url(./img/banner.jpg), linear-gradient(to right,#1A1A1B,#fff);
+    background-blend-mode: darken, luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_deatils{
+    width: 40%;
+   
+}
+.header_deatils h1{
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.header_deatils p{
+    color: #ffffff;
+}
+.donate_button{
+    background-color: #EF233C;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#explore_section{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.explore{
+    display: flex;
+}
+.explore_deatils{
+    margin-right: 8%;
+    width: 50%;
+}
+.explore_deatils h3{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.explore_deatils p{
+    color: #707070;
+    font-size: 20px;
+}
+.explore_button{
+    background-color: #EF233C;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.explore iframe{
+    border-radius: 5%;
+    width: 50%;
+    
+}
+#need_section{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+}
+.need{
+    display: flex;
+}
+.need img{
+    width: 45%;
+    border-radius: 10px;
+}
+.need_deatils{
+    margin-left: 5%;
+    width: 30%;
+    margin-top: 5%;
+}
+.need_deatils h3{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.need_deatils p{
+    color: #707070;
+    font-size: 20px;
+}
+#donate_section{
+    text-align: center;
+    margin-top: 8%;
+}
+#donate_section h1{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+#donate_section > p{
+    width: 40%;
+    font-size: 20px;
+    color: #7E7E7E;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+.donate{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    width: 80%;
+    margin-left: 10%;
+   
+    
+}
+.help{
+    display: flex;
+    margin-left: 5%;
+    background-color: #FEF4F5;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+.help img{
+    height: 36%;
+    margin-right: 5%;
+    margin-top: 6%;
+    padding-left: 10px;
+}
+.help_deatils{
+    text-align: left;
+    width: 53%;
+}
+.help_deatils > p{
+    color:#707070 ;
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#pray{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#pray img{
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: auto;
+}
+#Charity_section{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+#Charity_section > h1{
+    font-size: 45px;
+}
+#Charity_section > p{
+    font-size: 20px;
+    color: #808080;
+    width: 60%;
+    margin-left: 21%;
+}
+.charitys{
+ display: flex;
+ text-align: left;
+ 
+}
+.charity{
+    border: 1px solid #E9E9E9;
+    margin-right: 10px;
+    padding-bottom: 45px;
+    border-radius: 10px;
+}
+.charity img {
+    width: 100%;
+    padding-left: 0;
+}
+.charity h4{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.charity p{
+    color: #808080;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.charity a{
+    padding-left: 15px;
+    color: #EF233C;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+#footer{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #0B0D17;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+#footer > h3{
+    color: #EF233C;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+#footer > p{
+    color: #C2C4CA;
+}
